@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="index.css" type="text/css"/>
+  
+  <script type="text/javascript" defer src="index.js"></script>
+  <script type="text/javascript"  src="Display.js"></script>
+
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="calculadora">
+      <div class="display">
+        <div  id="val-ant"class="display"></div>
+        <div  id="val-act"class="display"></div>
+  
+      </div>
+      <button class="col-2" onclick="display.borrarTodo()">C</button>
+      <button class="operador" onclick="display.borrar()">&larr;</button>
+      <input type="button" id="divir"class="operador" value="/">
+      <input type="button" id="number7" class="number" id="" value="7">
+      <input type="button" id="number8" class="number" value="8">
+      <input type="button" id="number9" class="number" value="9">
+      <input type="button" id="mult"class="operador" value="*">
+      <input type="button" id="number4" class="number" value="4">
+      <input type="button" id="number5" class="number" value="5">
+      <input type="button" id="number6" class="number" value="6">
+      <input type="button" id="restar"class="operador" value="-">
+      <input type="button" id="number3" class="number" value="3">
+      <input type="button" id="number2" class="number" value="2">
+      <input type="button" id="number1"class="number" value="1">
+      <input type="button" id="sumar"class="operador" value="+">
+      <input type="button" id="number0" class="col-2-number" value="0">
+      <input type="button" id="decimal" class="number" value=".">
+      <button class="operador" id="igual" value="">=</button>
+
+    </div>
+
+  </div>
+  
+</body>
+</html>
